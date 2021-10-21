@@ -35,7 +35,7 @@ button.addEventListener("click", function() {
 Você também precisa de um modo de descobrir o que foi digitado na caixa de texto:
 
 ```js
-let typedText = document.Faça o push do código para o seu repositório GitHub e implemente-o GitHub pages. No Canvas, por favor, envie sua url do GitHub Pages: (ex: https://nomedeusuario.github.io/katas2) e envie o link do seu repositório nos comentários. Após ser a correção, seu projeto deverá ficar privado.getElementById("textInput").value;
+let typedText = document.getElementById("textInput").value;
 ``` 
 
 E por último, você precisa de uma maneira de ignorar maiúsculas e pontuação. Em uma frase como *"Cães gostam de cheirar outros cães!"* você precisa que as duas ocorrências da palavra *"cães"* sejam consideradas como a mesma coisa, mesmo que uma comece em maiúscula e a outra não. Da mesma forma, não importa se uma tem um ponto de exclamação em seguida e a outra não.
