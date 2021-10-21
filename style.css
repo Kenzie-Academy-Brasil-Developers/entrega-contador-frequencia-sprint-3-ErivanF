@@ -1,0 +1,14 @@
+body{
+    background-color: blanchedalmond;
+}
+#textInput{
+    margin: 10px auto;
+    background-color: white;
+    width: 100%;
+}
+@media (min-width:768px){
+    #textInput{
+        margin: 10px;
+        width: 500px;
+    }
+}
